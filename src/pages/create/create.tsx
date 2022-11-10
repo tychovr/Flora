@@ -5,7 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
-import "./create.css";
+import "./create.scss";
 
 const Create = () => {
   const [questions, setQuestions] = useState<any>([]);

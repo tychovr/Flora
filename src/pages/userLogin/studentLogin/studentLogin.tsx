@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { logIn, auth } from "../../../firebase/firebaseconfig";
-import "./studenLogin.css";
+import "./studenLogin.scss";
 
 const StudentLogin = () => {
   const [email, setEmail] = useState("");

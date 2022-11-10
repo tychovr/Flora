@@ -1,0 +1,76 @@
+.Container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+
+  .Student {
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: #1c5d99;
+
+    h1 {
+      font-family: "stencil";
+      font-size: 60px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .Student-Text {
+      margin-top: 150px;
+    }
+
+    .Button {
+      width: 275px;
+      height: 50px;
+      font-family: "stencil";
+      font-size: 30px;
+      border-radius: 90px;
+      box-shadow: 0px 6px 8px 1px #616060;
+      color: #ffffff;
+      background-color: #9c7178;
+      border: none;
+      margin-top: 50px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer;
+    }
+  }
+
+  .Teacher {
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: #44a1a0;
+
+    h1 {
+      font-family: "stencil";
+      font-size: 60px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .Teacher-Text {
+      margin-top: 150px;
+    }
+
+    .Button {
+      width: 275px;
+      height: 50px;
+      font-family: "stencil";
+      font-size: 30px;
+      border-radius: 90px;
+      box-shadow: 0px 6px 8px 1px #616060;
+      color: #ffffff;
+      background-color: #9c7178;
+      border: none;
+      margin-top: 50px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer;
+    }
+  }
+}

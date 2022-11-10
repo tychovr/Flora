@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signUpStudent, auth } from "../../../firebase/firebaseconfig";
-import "./studentRegister.css";
+import "./studentRegister.scss";
 
 const StudentRegister = () => {
   const [username, setUsername] = useState("");
@@ -34,7 +34,7 @@ const StudentRegister = () => {
   return (
     <div className="container-studentLogin">
       <div className="login-box">
-        <h1>Student Login</h1>
+        <h1>Student Register</h1>
         <form className="student-register-form" onSubmit={handleSubmit}>
           <div className="input">
             <input

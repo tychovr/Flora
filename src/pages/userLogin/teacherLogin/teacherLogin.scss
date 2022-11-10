@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .container-teacherLogin {
+    background-color: #44a1a0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    h1 {
+      font-family: "stencil";
+      font-size: 60px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 200px;
+    }
+
+    .input input,
+    .input input:focus,
+    .input input::after {
+      padding: 0 20px;
+      font-family: "Courier New", Courier, monospace;
+      width: 275px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 90px;
+      box-shadow: 0px 6px 8px 1px #616060;
+      color: #ffffff;
+      font-weight: bold;
+      background-color: #9c7178;
+      border: none;
+      margin-top: 50px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      cursor: caret;
+      outline: none;
+    }
+
+    .input input::placeholder {
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .btn {
+      width: 275px;
+      height: 50px;
+      border-radius: 90px;
+      box-shadow: 0px 6px 8px 1px #616060;
+      color: #ffffff;
+      font-size: 30px;
+      font-family: "stencil";
+      background-color: #9c7178;
+      border: none;
+      margin-top: 50px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer;
+    }
+  }
+}
